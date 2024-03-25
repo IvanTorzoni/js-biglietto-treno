@@ -31,7 +31,7 @@ let discountValue  //number | null
 if (userAge < 18) {
     discountValue = calcTot * 0.20;
 } else if (userAge >= 18 && userAge < 65) {
-    discountValue = calcTot;
+    discountValue = 0;
 } else {
     discountValue = calcTot * 0.40;
 }
@@ -55,4 +55,4 @@ console.log(userMSG, typeof userMSG);
 
 // OUTPUT
 // Stampiamo il messaggio che vedrà l'utente
-document.getElementById("result").innerHTML = userMSG
+document.getElementById("result").innerHTML = userMSG;

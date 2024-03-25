@@ -48,3 +48,11 @@ console.log(finalPrice, typeof finalPrice);
 let finalPriceToFix = finalPrice.toFixed(2); //string | null
 // Log della console
 console.log(finalPriceToFix, typeof finalPriceToFix);
+
+// Creiamo il messaggio per l'utente finale
+const userMSG = `L'importo finale da pagare è di ${finalPriceToFix}`; //String | null
+console.log(userMSG, typeof userMSG);
+
+// OUTPUT
+// Stampiamo il messaggio che vedrà l'utente
+document.getElementById("result").innerHTML = userMSG

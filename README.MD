@@ -23,4 +23,4 @@
     - [x] Arrotondiamo l'importo finale a due cifre significative dopo la virgola.
 
 3. OUTPUT
-    - [ ] Stampiamo il prezzo finale in base all' informazioni fornite da utente
+    - [x] Stampiamo il prezzo finale in base all' informazioni fornite da utente

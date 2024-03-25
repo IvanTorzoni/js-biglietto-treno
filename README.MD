@@ -5,9 +5,9 @@
     - va applicato uno sconto del 40% per gli over 65.
 
 1. INPUT
-    - [ ] Chiediamo all'utente il numero di chilometri che vuole percorrere tramite prompt
-    - [ ] Chiediamo all'utente la sua età tramite prompt
-    - [ ] Impostiamo la quota fissa di 0.21€ al km
+    - [x] Chiediamo all'utente il numero di chilometri che vuole percorrere tramite prompt
+    - [x] Chiediamo all'utente la sua età tramite prompt
+    - [x] Impostiamo la quota fissa di 0.21€ al km
 
 
 2. ESECUZIONE LOGICA

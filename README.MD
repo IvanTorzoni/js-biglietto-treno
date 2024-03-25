@@ -10,26 +10,17 @@
     - [x] Impostiamo la quota fissa di 0.21€ al km
 
 
-2. ESECUZIONE LOGICA
-    - [ ] Impostiamo i range di età per gli utenti (da 0 a meno di 18 anni, da anni uguali o superiori ai 18 e da anni minori di 65 anni, da anni pari o superiori ai 65 anni) 
-    - [ ] Calcoliamo i soldi che l'utente dovrà dare, sulla base dei km selezionati
-    - [ ] Calcoliamo lo sconto degli utenti minorenni e degli utenti anziani
-    - [ ] Applichiamo lo sconto degli utenti minorenni e degli utenti anziani
-    - [ ] Arrotondiamo il costo finale a due cifre significative dopo la virgola
-
-    - Se (l'età dell' utente è inferiore ai 18 anni)
-        + calcolerà i soldi che dovrà pagare in base ai km
-        + calcolerà lo sconto del 20%
-        + esegue la sottrazione dello sconto al prezzo totale
-        + arrotonderà il prezzo totale a due cifre significative
-    - Altrimenti se (l'età dell' utente è di anni pari e superiori a 18 fino ad anni inferiori ai 65)
-        + calcolerà i soldi che dovrà pagare in base ai km
-        + arrotonderà il prezzo totale a due cifre significative
-    - Altrimenti (l'età dell' utente supera i 65 anni)
-        + calcolerà i soldi che dovrà pagare in base ai km
-        + calcolerà lo sconto del 40%
-        + esegue la sottrazione dello sconto al prezzo totale
-        + arrotonderà il prezzo totale a due cifre significative
+2. . ESECUZIONE LOGICA
+    - [ ] Calcoliamo l'importo base che l'utente dovrà facendo la moltiplicazione tra il numero di kilometri selezionati e la quota fissa di euro al kilometro.
+    - [ ] Calcoliamo lo sconto in base alla fascia di età:
+        - Se (l'età dell' utente è inferiore ai 18 anni)
+            + calcoliamo lo sconto del 20% sull'importo base. (Questo valore verrà successivamente utilizzato per fare il calcolo dell'importo finale).
+        - Altrimenti se (l'età dell'utente è compresa tra i 18 e i 65 anni)
+            + Non verrà applicato nessuno sconto al prezzo finale
+        - Altrimenti (l'età dell' utente supera i 65 anni)
+            + calcoliamo lo sconto del 40% sull'importo base. (Questo valore verrà successivamente utilizzato per fare il calcolo dell'importo finale).
+    - [ ] Applichiamo lo sconto all'importo finale.
+    - [ ] Arrotondiamo l'importo finale a due cifre significative dopo la virgola.
 
 3. OUTPUT
     - [ ] Stampiamo il prezzo finale in base all' informazioni fornite da utente
